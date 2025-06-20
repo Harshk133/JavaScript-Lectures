@@ -1,0 +1,23 @@
+History
+1995 - Brendan Eich Netscape Company JavaScript cha janma...
+
+1996 - Microsoft ni changes kele js madhe ani tyach JScript 
+
+1997 - ECMAScript (ECMA - European Computer Manufactureres Associaiton)
+
+2015 - ES6 
+
+-------------------------------------------------
+html
+css
+js 
+- website dynamic
+- website interactivity
+- we can write the logic through js 
+
+Variables -> let, const 
+Operators -> 
+Conditionals -> if, if else, if else if ladder, switch statement
+
+input prompt(), parseInt(promt("message"))
+output console.log(), alert()
