@@ -2,6 +2,7 @@
 // if else
 // if else if
 // switch
+
 // let score = 85;
 // let score = parseInt(prompt("Enter ur score:")); // Prompt user for input
 
@@ -22,6 +23,7 @@
 
 
 // let day = "Wednesday";
+
 let day = prompt("Enter the day of the week:"); // Prompt user for input
 
 switch (day) {

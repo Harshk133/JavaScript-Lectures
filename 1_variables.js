@@ -1,4 +1,4 @@
-// javascript is a dynamically typed language
+// Javascript is a dynamically typed language
 // let, const 
 
 // // following are the simple variables
@@ -35,6 +35,7 @@ console.log("The sum of a and b is: " + c); // prints 5
 // 2. cannot start with a digit
 // 3. cannot use reserved keywords
 // 4. case sensitive
+
 
 let a2_$ = 10; // valid variable name
 let b2 = 20; // valid variable name

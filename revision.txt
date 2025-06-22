@@ -8,8 +8,8 @@ History
 2015 - ES6 
 
 -------------------------------------------------
-html
-css
+html - website structure
+css - designing
 js 
 - website dynamic
 - website interactivity
@@ -21,3 +21,19 @@ Conditionals -> if, if else, if else if ladder, switch statement
 
 input prompt(), parseInt(promt("message"))
 output console.log(), alert()
+
+Datatypes:
+String
+Number
+Boolean
+object
+undefined
+null
+BigInt
+Symbol
+
+Loops:
+for Loops
+while Loops
+do while Loops
+
