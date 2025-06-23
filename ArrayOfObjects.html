@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forts Website</title>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <style>
+    #forts-container {
+        width: 90%;
+        margin: 2rem auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+        gap: 1.5rem;
+        padding-bottom: 2rem;
+    }
+  </style>
+</head>
+<body>
+    <!-- 
+     
+    -->
+    
+    <div id="forts-container">
+    </div>
+
+    <script>
+       
+
+        const fortsArray = [
+            {
+                img: "img/raigad.jpg",
+                fortName: "Raigad",
+                desc: `Raigad Fort is a hill fort in Maharashtra, India, that was the capital of the Maratha Empire. It's a classic example of Maratha architecture and is known as the "Gibraltar of the east".`,
+                ytlink: `https://www.youtube.com/watch?v=jNPyn9A0EHo&t=48s`
+            },
+            {
+                img: "img/naldurg.jpg",
+                fortName: "Naldurg",
+                desc: `Naldurg Fort is a historic fort in the Osmanabad district of Maharashtra, India. It was built in the medieval period by Raja Nalraja. The fort is known for its star-shaped architecture and bastions.`
+            },
+            {
+                img: "img/torna.jpg",
+                fortName: "Torna",
+                desc: `Torna Fort, also known as Prachandagad, is a large fort in the Pune district of Maharashtra, India. It's a popular trekking destination and one of the highest hill forts in the state.`
+            },
+            {
+                img: "img/pratapgad.jpeg",
+                fortName: "Pratapgad",
+                desc: `Pratapgad Fort is a mountain fort in the Satara district of Maharashtra, India. It was built by Chhatrapati Shivaji Maharaj in 1656. The fort is a popular tourist destination.`
+            },
+            {
+                img: "img/harihar.jpeg",
+                fortName: "Harihar",
+                desc: `Harihar Fort is a historic fort in the Nashik district of Maharashtra, India. It's known for its rock-cut steps and is a popular destination for hikers.`
+            },
+            {
+                img: "img/lohagad.webp",
+                fortName: "Lohagad",
+                desc: `Lohagad Fort, also known as the Iron Fort, is a stone fort in Maharashtra, India. It's a popular trekking destination and a significant historical site.`
+            },
+            {
+                img: "img/Sindhudurg.webp",
+                fortName: "Sindhudurg",
+                desc: `Sindhudurg Fort is a historic sea fort in the Arabian Sea, built by Chhatrapati Shivaji Maharaj. It's located in the Sindhudurg district of Maharashtra, India.`
+            },
+            {
+                img: "img/Vijaydurg.webp",
+                fortName: "Vijaydurg",
+                desc: `Vijaydurg Fort is a historic fort in the Sindhudurg district of Maharashtra, India. It was built during the Shilahar dynasty and was captured by Shivaji Maharaj in 1653.`
+            },
+            {
+                img: "img/Shivneri.webp",
+                fortName: "Shivneri",
+                desc: `Shivneri Fort is a 17th-century military fort in the Pune district of Maharashtra, India. It's the birthplace of Chhatrapati Shivaji Maharaj, the founder of the Maratha Empire.`
+            },
+        ];
+
+        fortsArray.push({
+    img: `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcNLnaqbaxm6S25XNemVREuc8DIJpzB5_DYkaG0mothBg8GtfMWCbvdOyn&s`,
+    fortName: "Murud-Janjira",
+    desc: "Janjira Fort was initially built as a small wooden structure in the 15th century by the Koli fishermen for protection against pirates. Later, it was captured and fortified by Malik Ambar, a Siddi general in the service of the Nizam Shahi dynasty of Ahmednagar, who is credited with building the present-day fort. "
+});
+
+        // console.log(fortsArray[3]);
+        
+         let fortsContainer = document.getElementById("forts-container");
+        
+        
+
+        for(let i=0; i<=fortsArray.length; i++){
+            // console.log(fortsArray[i].img);
+                fortsContainer.innerHTML += `
+                <div class="card" style="width: 18rem;">
+                    <img src="${fortsArray[i].img}" class="card-img-top" alt="..." style="width: 100%; height: 70vh;">
+                    <div class="card-body">
+                        <h5 class="card-title">${fortsArray[i].fortName}</h5>
+                        <p class="card-text">${fortsArray[i].desc}</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            `;
+        }
+        console.log(fortsContainer);
+
+
+    </script>
+
+
+
+
+
+    <!-- javascript bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
